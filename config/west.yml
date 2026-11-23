@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: keyboardio-preonic-zmk-module
+      url: https://github.com/keyboardio/keyboardio-preonic-zmk-module
+      revision: main
+      path: modules/keyboardio-preonic-zmk-module
   self:
     path: config
